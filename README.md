@@ -16,6 +16,14 @@ Maximum             75.10 °F
 Classification      comfortable
 ```
 
+## Temperature classification
+
+Classify the average temperature in °F:
+
+- **Cool:** below 68 °F.
+- **Comfortable:** 68 °F through 73 °F, inclusive.
+- **Warm:** above 73 °F.
+
 ## Helpful commands
 
 ```sh
