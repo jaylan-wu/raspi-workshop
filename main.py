@@ -34,8 +34,8 @@ def analyze_temperatures(readings):
     results = {
         "count": len(readings),
         "average": calculate_average(readings),
-        "minimum": max(readings),
-        "maximum": min(readings),
+        "minimum": min(readings),
+        "maximum": max(readings),
     }
 
     results["classification"] = classify_temperature(
